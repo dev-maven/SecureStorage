@@ -642,6 +642,10 @@ h6 {
 	.location-text {
 		font-size: 20px;
 	}
+
+	.card div button {
+		padding: 15px 30px;
+	}
 }
 
 @media (max-width: 480px) {
@@ -910,6 +914,10 @@ p {
 	margin-left: 50px;
 	width: 70%;
 	margin-top: -150px;
+}
+
+#buy .buy-img {
+	max-width: 790px;
 }
 
 @media (max-width: 480px) {
@@ -1188,7 +1196,7 @@ p {
 }
 
 #footer .select-div {
-	width: 65%;
+	width: 75%;
 }
 
 @media (max-width: 990px) {
@@ -1197,7 +1205,7 @@ p {
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 	#footer {
 		padding: 2rem;
 	}
