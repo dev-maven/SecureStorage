@@ -920,6 +920,13 @@ p {
 	max-width: 790px;
 }
 
+@media (max-width: 990px) {
+	#buy .container-fluid {
+		width: 100%;
+		background: url(../img/buy-background.png) center center no-repeat;
+	}
+}
+
 @media (max-width: 480px) {
 	#buy .section-header h2,
 	p {
@@ -1197,6 +1204,15 @@ p {
 
 #footer .select-div {
 	width: 75%;
+}
+#footer .left-rectangle {
+	position: absolute;
+	left: 20px;
+}
+
+#footer .right-rectangle {
+	position: absolute;
+	right: 20px;
 }
 
 @media (max-width: 990px) {
