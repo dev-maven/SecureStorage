@@ -1112,7 +1112,7 @@ p {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-	padding: 5rem;
+	padding: 5rem 5rem 0;
 	font-size: 16px;
 }
 
